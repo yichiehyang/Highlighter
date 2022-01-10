@@ -1,0 +1,70 @@
+﻿As  a  debater,  Lenny  was  something  of  a  _____  in  that  he  often  used 
+subtly deceptive reasoning to win points. 
+A. sage       
+B. sophist     
+C. stickler   
+D. savant
+E. quibbler   
+F. scapegoat  
+
+The company`s policies were _____: they lacked foresight, making no 
+provisions for new product development. 
+A. superfluous         
+B. improvident
+C. intrinsic   
+D. myopic   
+E. redundant  
+F. sustainable  
+
+Patricia is so_____ that she is unable to tolerate others deviating in the 
+least from rules and conventions.
+A. importunate 
+B. imperturbable
+C. unshakable 
+D. punctilious 
+E. complaisant
+F. meticulous 
+
+Flatfish, such as the flounder, are among the few vertebrates that lack relative bilateral symmetry (symmetry 
+in which structures to the left and right of the body’s midline are mirror images). Most striking among the 
+many asymmetries evident in an adult flatfish is eye placement: before maturity one eye moves, so that in an 
+adult flatfish both eyes are on the same side of the head. While in most species with asymmetries nearly all 
+adults share the same asymmetry, members of the starryflounder species can be either left-eyed (both eyes on 
+the left side of head) or right-eyed. In the waters between the United States and Japan, the starry flounder 
+populations vary from about 50 percent left-eyed off the United States West Coast, through about 70 percent 
+left-eyed halfway between the United States and Japan, to nearly 100 percent left-eyed off the Japanese coast. 
+Biologists call this kind of gradual change over a fixed geographic range a “cline” and explain clines as 
+strong clues that the variation is adaptive, a response to environmental discrepancies. For the starry flounder 
+this interpretation suggests that a geometric difference (between fish that are mirror images of one another) is 
+adaptive, that left-eyedness in the Japanese starry flounder has been selected for, which causes a complex 
+question: what is the selective advantage in having both eyes on one side rather than on the other? 
+The ease with which a fish can reverse the influence of the sidedness of its eye asymmetry simply by 
+turning around has made biologists study internal anatomy, especially the optic nerves, for the answer. In all 
+flatfish the optic nerves cross,so that the right optic nerve is joined tothe brain’s left side and vice versa. This 
+crossing leads to an asymmetry, as one optic nerve must cross above or below the other. G. H. Parker reasoned 
+that if, for instance, a flatfish’s left eye moved when the right optic nerve was on top, there would be a 
+wresting of nerves, which might be automatically unfavorable. For starry flounders, then, the left-eyed 
+diversity would be selected against, since in a starry flounder the left optic nerve is dominant. 
+The problem with the above interpretation is that the Japanese starry flounder population is almost 
+merely left-eyed, a natural selection never contributes to a purely less beneficial variation. As other 
+interpretations proved evenly unreasonable, biologists concluded that there is no necessary adaptive difference 
+between left-eyedness and right-eyedness, and that the two properties are genetically related to some other 
+adaptively important characteristic. This situation is one frequently met by evolutionary biologists, who must 
+often determine whether a characteristic is adaptive or selectively neutral. As for the left-eyed and right-eyed 
+flatfish, their difference, however evident, appears to be an evolutionary red herring. 
+21.  According to the passage, starry flounder differ from most other species of flatfish in that starry flounder 
+(A) are not basically bilaterally symmetric 
+(B) do not become asymmetric until adulthood 
+(C) do not all share the same asymmetry 
+(D) have both eyes on the same side of the head 
+(E) tend to cluster in only certain geographic regions 
+22.  The author would be most likely to agree with which of the following statements about left-eyedness and 
+right-eyedness in the starry flounder? 
+I.  They are adaptive variations by the starry flounder to environmental differences. 
+II.  They do not seem to give obvious selective advantages to the starry flounder. 
+III.  They occur in different proportions in different locations. 
+(A) I only 
+(B) II only 
+(C) I and III only 
+(D) II and III only 
+(E) I, II, and III

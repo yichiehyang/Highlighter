@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Highlighter</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/index.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+<div id="navbar"><a href="{{url_for('clear', filename= 'highlighter')}}"><img src="{{ url_for('static', filename = 'styles/images/icons/icon.svg') }}" alt="previous"
+                      title="Previous" border="0" id="title"></a>
+</div>
+<div class="container">
+    <div class="left">
+        <form method="POST">
+            <div>
+                <label id="right_title"><img src="{{ url_for('static', filename = 'styles/images/icons/icon.svg') }}"
+                                             alt="previous" title="Previous" border="0" id="left_sub_title"></label>
+                <textarea id="article" class="form-control" type="text" name="article"
+                          placeholder="Paste your article here.">{{article}}</textarea>
+            </div>
+            <div class="btn-group" style="margin-top: 25px;">
+                <!--<input type="submit" value="Submit" id="submit" class="btn btn-warning"></input>-->
+                <button type="submit" id="submitGRE" class="btn btn-warning" formaction="/submitGRE">Submit as GRE</button>
+                <button type="submit" id="submitTOEFL" class="btn btn-warning" formaction="/submitTOEFL">Submit as TOEFL</button>    
+                <a href="{{url_for('download', filename= 'highlighter')}}" id="download" class="btn btn-outline-warning">Download</a>
+                <a href="{{url_for('clear', filename= 'highlighter')}}" id="clear" class="btn btn-outline-warning">Clear</a>
+            </div>
+        </form>
+    </div>
+    <div class="right">
+        <div id="vocab_list"><img src="{{ url_for('static', filename = 'styles/images/icons/vocab.svg') }}"
+                                  alt="previous" title="Previous" border="0" id="right_sub_title"></div>
+        <table class="wordlist">
+            <tr>
+                {% for col in column_names %}
+                <th>{{col}}</th>
+                {% endfor %}
+            </tr>
+            {% for row in row_data %}
+            <tr>
+                {% for col, row_ in zip(column_names, row) %}
+                {% if col == link_column %}
+                {% else %}
+                <td>{{row_}}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif TC', serif;
+}
+
+img#title {
+    width:auto;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+#navbar {
+    display: block;
+    background-color: whitesmoke;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    margin: 10;
+}
+
+.left {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    height: 85vh;
+    width: 50vw;
+    text-align: center;
+}
+
+.right {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    height: fit-content;
+    width: 50vw;
+    text-align: center;
+}
+
+textarea#article {
+    margin-top: 0.5rem;
+    width: 45vw;
+    height: 70vh;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+
+#download{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+#clear{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+#download{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+
+.wordlist {
+    margin-top:0.5rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    height: fit-content;
+}
+
+.wordlist th {
+    font-family: 'Noto Serif TC', serif;
+    background-color:black;
+    color: white;
+    text-align: left;
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+
+.wordlist td {
+    font-family: 'Noto Serif TC', serif;
+    text-align: left;
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+
+img#left_sub_title{
+    width:auto;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+img#right_sub_title{
+    width:auto;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
